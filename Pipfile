@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+kivy = "*"
+kivymd = "*"
+
+[dev-packages]
+autopep8 = "*"
+matplotlib = "*"
+numpy = "*"
+drawnow = "*"
+httplib2 = "*"
+pyserial = "*"
+
+[requires]
+python_version = "3.9"

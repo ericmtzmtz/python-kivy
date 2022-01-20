@@ -1,0 +1,15 @@
+MDScreen:
+    name: "pre-splash"
+    MDFloatLayout:
+        md_bg_color: 226/255, 0, 48/255, 1
+        Image:
+            source: "forest.png"
+            size_hint: .40, .40
+            pos_hint: {'center_x': .5, 'center_y': .55}
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1
+                Ellipse:
+                    size: 130, 130
+                    pos: 110, 250
+                
